@@ -1,5 +1,5 @@
 {
-  "name": "npminstall",
+  "name": "npminstall-1",
   "version": "1.15.0",
   "description": "Let npm install fast and easy",
   "main": "lib/index.js",
@@ -74,9 +74,6 @@
   ],
   "engines": {
     "node": ">=4.2.3"
-  },
-  "publishConfig": {
-    "tag": "release-1"
   },
   "author": "fengmk2 <m@fengmk2.com> (http://fengmk2.com)",
   "license": "MIT"
