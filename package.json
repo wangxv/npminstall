@@ -1,6 +1,6 @@
 {
   "name": "npminstall-1",
-  "version": "1.15.0",
+  "version": "1.15.1",
   "description": "Let npm install fast and easy",
   "main": "lib/index.js",
   "files": [
@@ -9,8 +9,8 @@
     "node-gyp-bin"
   ],
   "bin": {
-    "npminstall": "bin/install.js",
-    "npmuninstall": "bin/uninstall.js"
+    "npminstall-1": "bin/install.js",
+    "npmuninstall-1": "bin/uninstall.js"
   },
   "scripts": {
     "test": "mocha -r thunk-mocha -t 120000 test/*.test.js",
