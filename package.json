@@ -1,6 +1,6 @@
 {
-  "name": "npminstall",
-  "version": "4.11.0",
+  "name": "fork-npminstall",
+  "version": "4.11.1",
   "description": "Let npm install fast and easy",
   "main": "lib/index.js",
   "files": [
@@ -64,14 +64,14 @@
     "http-proxy": "1",
     "mm": "^2.5.0"
   },
-  "homepage": "https://github.com/cnpm/npminstall",
+  "homepage": "https://github.com/wangxv/npminstall",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cnpm/npminstall.git",
-    "web": "https://github.com/cnpm/npminstall"
+    "url": "git://github.com/wangxv/npminstall.git",
+    "web": "https://github.com/wangxv/npminstall"
   },
   "bugs": {
-    "url": "https://github.com/cnpm/npminstall/issues"
+    "url": "https://github.com/wangxv/npminstall/issues"
   },
   "publishConfig": {
     "tag": "latest-4"
@@ -86,6 +86,6 @@
   "engines": {
     "node": ">=8.0.0"
   },
-  "author": "fengmk2 <fengmk2@gmail.com> (https://fengmk2.com)",
+  "author": "",
   "license": "MIT"
 }
