@@ -1,6 +1,6 @@
 {
   "name": "fork-npminstall",
-  "version": "4.11.2",
+  "version": "4.11.3",
   "description": "Make npm install fast and handy.",
   "main": "lib/index.js",
   "files": [
@@ -26,7 +26,6 @@
   "dependencies": {
     "agentkeepalive": "^4.0.2",
     "await-event": "^2.1.0",
-    "bin-links": "^2.3.0",
     "binary-mirror-config": "^1.19.0",
     "bytes": "^3.1.0",
     "chalk": "^2.4.2",
@@ -42,9 +41,10 @@
     "mz-modules": "^2.1.0",
     "node-gyp": "^4.0.0",
     "node-homedir": "^1.1.1",
+    "normalize-git-url": "^3.0.2",
     "normalize-package-data": "^2.5.0",
     "npm-normalize-package-bin": "^1.0.1",
-    "npm-package-arg": "^8.1.5",
+    "npm-package-arg": "^4.2.1",
     "ora": "^3.4.0",
     "p-map": "^2.1.0",
     "runscript": "^1.3.0",
@@ -58,20 +58,20 @@
     "autod": "3",
     "coffee": "^5.2.1",
     "egg-bin": "^4.13.1",
-    "eslint": "7",
+    "eslint": "5",
     "eslint-config-egg": "7",
     "git-contributor": "^1.0.10",
     "http-proxy": "1",
     "mm": "^2.5.0"
   },
-  "homepage": "https://github.com/cnpm/npminstall",
+  "homepage": "https://github.com/wangxv/npminstall",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cnpm/npminstall.git",
-    "web": "https://github.com/cnpm/npminstall"
+    "url": "git://github.com/wangxv/npminstall.git",
+    "web": "https://github.com/wangxv/npminstall"
   },
   "bugs": {
-    "url": "https://github.com/cnpm/npminstall/issues"
+    "url": "https://github.com/wangxv/npminstall/issues"
   },
   "publishConfig": {
     "tag": "latest"
